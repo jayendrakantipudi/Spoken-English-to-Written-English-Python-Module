@@ -1,5 +1,12 @@
-# Conversion System
-syntax to import : *from aganithaJayendra import conversionSystem*
+# Spoken English to Written English
+A python module that converts spoken english to written english.
+
+# Installation
+Please ensure that you have updated pip3 to the latest version before installing spr2wrt.
+
+You can install the module using Python Package Index using the below command.
+
+>> python3 setup.py install
 
 # Features Implemented:
 ### Conversion Types
