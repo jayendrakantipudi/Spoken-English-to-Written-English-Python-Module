@@ -30,27 +30,27 @@ These are converted individually i.e., by mentioning the conversion type of any 
 (in python)
 
 *Type1*
->>from aganithaJayendra import conversionSystem
+>>from spk2wrt import spk2wrt
 
->>a = conversionSystem('double A')
+>>a = spk2wrt.conversionSystem('double A')
 
 >>print(a.convert_to_written(conversion_type='make_repetitions'))
 
    *returns the converted string*
 
 *Type2*
->>from aganithaJayendra import conversionSystem
+>>from spk2wrt import spk2wrt
 
->>a = conversionSystem('twenty five thousand sixty six hundred')
+>>a = spk2wrt.conversionSystem('twenty five thousand sixty six hundred')
 
 >>print(a.convert_to_written(conversion_type='spoken_to_written_numbers'))
 
    *returns the converted number*
 
 *Type3*
->>from aganithaJayendra import conversionSystem
+>>from spk2wrt import spk2wrt
 
->>a = conversionSystem('i have twenty five thousand sixty six hundred dollars with me.')
+>>a = spk2wrt.conversionSystem('i have twenty five thousand sixty six hundred dollars with me.')
 
 >>print(a.convert_to_written(conversion_type='spoken_to_written_english'))
 
